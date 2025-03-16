@@ -20,7 +20,7 @@ body {
   margin: 0;
 }
 
-h3 {
+h1 {
   font-weight: 900;
   color: var(--dark-blue);
 
@@ -45,7 +45,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  height: auto; 
+  height: auto;
 
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
@@ -57,7 +57,9 @@ body {
   font-family: var(--fonte-padrao);
 }
 
-section {
+section,
+article,
+aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,24 +74,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25%;  
+  width: 25%;
   border-radius: 20px;
   background-color: white;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;      
-    border-radius: 20px;
-    background-color: white;
-  }
-
 .img-heroi {
   display: block;
-  width: 100%;    
+  width: 100%;
   object-fit: contain;
   border: none;
   border-top-left-radius: 20px;
@@ -218,11 +210,9 @@ footer a {
 @media (max-width: 767px) {
   body {
     background-image: url("./images/pattern-background-mobile.svg");
-    background-position: center ;
-    
+    background-position: center;
   }
   main {
     width: 90vw;
   }
 }
-
