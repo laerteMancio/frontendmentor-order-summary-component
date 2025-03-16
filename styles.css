@@ -218,9 +218,8 @@ footer a {
 @media (max-width: 767px) {
   body {
     background-image: url("./images/pattern-background-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
+    background-position: center ;
+    
   }
   main {
     width: 90vw;
