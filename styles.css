@@ -50,7 +50,7 @@ body {
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center top -70px; /* Move o fundo 50px para cima */
+  background-position: center top -70px;
 
   background-color: var(--pale-blue);
 
